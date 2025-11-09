@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(40, 36, 36);
+    width: 100%;
+    overflow-x: hidden;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    padding-top: 20px;
+    color: rgb(178, 19, 19);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+.h1{
+    text-decoration: none;
+    width: 100vw;
+    text-align: center;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+
+.menu{
+    margin-top: 25px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-left: -35px
+}
+
+.as,li{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.botao1 {
+    border-color: red solid;
+    border-radius: 10px;
+    height: 24px;
+    cursor: pointer;    
+}
+.botao2{
+    margin-top: 5px;
+    background-color: rgb(178, 19, 19);
+    border-radius: 20px;
+}
+
+.search :hover{
+    background-color: white;
+}
+
+.search {
+    width: 10px;
+}
+
+.opp {
+    width: 90px;
+    margin-top: 15px;
+    height: 70px;
+    margin-left: 400px;
+}
+
+main {
+    background-color: rgb(40, 36, 36);
+}
+
+
+table {
+    width: 100%;
+}
+
+
+div {
+    margin-top: 50px;
+    background-color: rgb(40, 36, 36);
+    width: 100%;
+    border-radius: 30px;
+}
+
+.titulos {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+}
+
+.links:hover {
+    background-color: rgba(255, 0, 0, 0.066);
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.capas{
+    width: 300px;
+}
+.trc{
+    transition: 0.5s ease;
+}
+
+
+.imgs {
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    transition: 500ms ease;
+}
+.trc:hover > :not(:hover){
+    opacity: 0.5;
+}
+
+.imgs:hover {
+    transform: scale(1.1);
+}
+
+.links {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nomes {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    height: 5vh;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(30, 27, 27);
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+
+}
+
