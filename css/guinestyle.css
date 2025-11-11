@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     bottom: 0;
@@ -118,6 +119,7 @@ hr {
         border-radius: 20px;
         border: solid 5px;
         border-color: red;
+
     }
 
     hr {
@@ -200,10 +202,13 @@ hr {
         border-color: red;
         position: absolute;
     }
-    img:hover{
+
+    img:hover {
         transform: scale(1.05);
         transform: rotate(10deg);
         transition: 0.3s ease;
+        z-index: 1;
+
     }
 
     #img1 {
@@ -335,10 +340,13 @@ hr {
         border-color: red;
         position: absolute;
     }
-        img:hover{
+
+
+    img:hover {
         transform: scale(1.05);
         transform: rotate(10deg);
         transition: 0.3s ease;
+        z-index: 1;
     }
 
     #img12 {
