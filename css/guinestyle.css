@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     bottom: 0;
     top: 0;
@@ -6,6 +6,7 @@ body{
     width: 100%;
     color: white;
 }
+
 header {
     height: 100px;
     width: 100%;
@@ -13,17 +14,18 @@ header {
     z-index: 1;
 
     h1 {
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    padding-top: 20px;
-    color: rgb(178, 19, 19);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 60px;
-    width: 100vw;
-    text-align: center;
+        margin: 0;
+        padding: 0;
+        bottom: 0;
+        padding-top: 20px;
+        color: rgb(178, 19, 19);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 60px;
+        width: 100vw;
+        text-align: center;
     }
 }
+
 :root {
     --cor--sombra: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
@@ -198,6 +200,11 @@ hr {
         border-color: red;
         position: absolute;
     }
+    img:hover{
+        transform: scale(1.05);
+        transform: rotate(10deg);
+        transition: 0.3s ease;
+    }
 
     #img1 {
         top: 80px;
@@ -250,7 +257,18 @@ hr {
                 a {
                     color: white;
                     text-decoration: underline;
+                    transition: 0.3s ease;
                 }
+
+                a:hover {
+                    color: rgb(178, 19, 19);
+                }
+            }
+
+            li:hover {
+                transform: scale(1.05);
+                transform: translate(10px);
+                transition: 0.3s ease;
             }
         }
     }
@@ -295,6 +313,16 @@ hr {
                     color: white;
                     text-decoration: underline;
                 }
+
+                a:hover {
+                    color: rgb(178, 19, 19);
+                }
+            }
+
+            li:hover {
+                transform: scale(1.05);
+                transform: translate(10px);
+                transition: 0.3s ease;
             }
         }
     }
@@ -306,6 +334,11 @@ hr {
         border: solid 5px;
         border-color: red;
         position: absolute;
+    }
+        img:hover{
+        transform: scale(1.05);
+        transform: rotate(10deg);
+        transition: 0.3s ease;
     }
 
     #img12 {
@@ -328,6 +361,7 @@ hr {
         left: 990px;
     }
 }
+
 footer {
     height: 5vh;
     bottom: 0;
@@ -339,4 +373,3 @@ footer {
     text-align: center;
     margin-top: 50px;
 }
-
