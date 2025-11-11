@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     bottom: 0;
@@ -203,14 +202,6 @@ hr {
         position: absolute;
     }
 
-    img:hover {
-        transform: scale(1.05);
-        transform: rotate(10deg);
-        transition: 0.3s ease;
-        z-index: 1;
-
-    }
-
     #img1 {
         top: 80px;
         left: 250px;
@@ -229,6 +220,22 @@ hr {
     #img4 {
         top: 480px;
         left: 390px;
+    }
+
+    #img1:hover,
+    #img3:hover {
+        transform: scale(1.05);
+        transform: rotate(-10deg);
+        transition: 0.3s ease;
+        z-index: 1;
+    }
+
+    #img2:hover,
+    #img4:hover {
+        transform: scale(1.05);
+        transform: rotate(10deg);
+        transition: 0.3s ease;
+        z-index: 1;
     }
 
     div {
@@ -367,6 +374,22 @@ hr {
     #img42 {
         top: 480px;
         left: 990px;
+    }
+
+    #img12:hover,
+    #img32:hover {
+        transform: scale(1.05);
+        transform: rotate(-10deg);
+        transition: 0.3s ease;
+        z-index: 1;
+    }
+
+    #img22:hover,
+    #img42:hover {
+        transform: scale(1.05);
+        transform: rotate(10deg);
+        transition: 0.3s ease;
+        z-index: 1;
     }
 }
 
